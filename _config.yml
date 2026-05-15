@@ -8,8 +8,7 @@ language: zh-CN
 timezone: ''
 
 # URL
-url: https://beingstar.github.io/beingstar
-root: /beingstar/
+url: https://beingstar.github.io
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -76,5 +75,5 @@ theme: next
 # Deployment
 deploy:
   type: git
-  repo: https://github.com/beingstar/beingstar.git
+  repo: https://github.com/beingstar/beingstar.github.io.git
   branch: gh-pages
